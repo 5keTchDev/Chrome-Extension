@@ -26,6 +26,7 @@ YouTube Timestamp Bookmark is a Chrome extension that allows users to bookmark s
    - The YouTube Timestamp Bookmark icon should now appear in your Chrome toolbar.
    - Go to any YouTube video and start bookmarking timestamps.
 
+
 ## Usage
 
 1. **Saving a Bookmark:**
@@ -36,20 +37,11 @@ YouTube Timestamp Bookmark is a Chrome extension that allows users to bookmark s
    - Click the extension icon to view your list of saved bookmarks.
    - Each bookmark will show the video URL and the timestamp.
    - Click on any bookmark to open the video and automatically navigate to the saved timestamp.
+     
 
 ## Folder Structure
 
 The extension's folder contains the following files:
-
-
-
-
-
-
-
-
-
-
 
 
 
