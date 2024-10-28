@@ -42,7 +42,21 @@ YouTube Timestamp Bookmark is a Chrome extension that allows users to bookmark s
 ## Folder Structure
 
 The extension's folder contains the following files:
-
+   ```
+   Timestamp BookMark/
+   │
+   ├── background.js         # Background script for managing extension events
+   ├── content.js            # Content script for interacting with YouTube pages
+   ├── images/               # Folder containing icon images for different sizes
+   │   ├── icon16.png
+   │   ├── icon48.png
+   │   └── icon128.png
+   ├── manifest.json         # Chrome extension manifest file
+   ├── popup.html            # HTML file for the extension's popup interface
+   ├── popup.js              # JavaScript for handling the popup functionality
+   ├── styles.css            # Basic styles for the popup interface
+   └── improved_styles.css   # Optional: Advanced styles with animated buttons
+   ```
 
 
 
@@ -90,22 +104,21 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Screenshots
 
-![Extension Popup](screenshots/popup.png)
+![Screenshot (193)](https://github.com/user-attachments/assets/62baa245-74a5-4713-9021-58745586544a)
+
 _A screenshot of the extension's popup interface._
 
-![Bookmarks List](screenshots/bookmarks.png)
+![Screen](https://github.com/user-attachments/assets/c922bffe-dfa0-471e-9304-66e4c8af3389)
+
 _A screenshot showing saved bookmarks._
+
+![Screenshot (191)](https://github.com/user-attachments/assets/88332d0f-36db-4b78-b609-3649cd095859)
+
+![Screenshot (194)](https://github.com/user-attachments/assets/ddff8746-4373-44ca-8741-9f658acec964)
+
 
 ## Future Enhancements
 
 - **Organize Bookmarks**: Categorize bookmarks by video.
 - **Export/Import Bookmarks**: Allow users to export or import their saved bookmarks.
 - **Notes for Bookmarks**: Add an option to attach notes to each bookmark.
-
-## Acknowledgments
-
-- The extension icon design is inspired by YouTube's brand colors and uses a minimalist style to represent video timestamps.
-
----
-
-Feel free to modify the content according to your requirements and customize the screenshots or other sections as needed.
